@@ -1,4 +1,5 @@
-Create docker image 
+# Steps
+## Create docker image 
 
 # Use an official Node.js runtime as a parent image
 FROM node:12
@@ -26,7 +27,7 @@ EXPOSE 80
 CMD ["npm", "start"]
 
 
-
+#
 docker build -t your-image-name .
 docker run -p 3000:3000 your-image-name
 Creat AWS ECR
